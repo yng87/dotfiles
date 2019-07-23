@@ -1,0 +1,1 @@
+/Users/yanagi/Dropbox/symbolic_links/bash_profile
