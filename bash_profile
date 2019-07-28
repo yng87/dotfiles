@@ -1,4 +1,4 @@
-PATH=$PATH:/usr/local/texlive/2018/bin/x86_64-darwin
+PATH=$PATH:/usr/local/texlive/2019/bin/x86_64-darwin
 export PYENV_ROOT=$HOME/.pyenv
 export PATH=$PYENV_ROOT/bin:$PATH
 eval "$(pyenv init -)"
