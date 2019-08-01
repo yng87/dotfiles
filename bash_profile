@@ -6,3 +6,4 @@ alias note='jupyter notebook'
 alias e='emacs -nw'
 alias g='git'
 alias ls='ls -G'
+export PATH="/usr/local/sbin:$PATH"
