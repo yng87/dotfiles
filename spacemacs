@@ -30,9 +30,13 @@ values."
    dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(csv
+   '(rust
+     (c-c++ :variables
+            sp-escape-quotes-after-insert nil)
+     csv
      lsp
      latex
+     bibtex
      ;; ess
      (julia :variables
             julia-mode-enable-lsp t
