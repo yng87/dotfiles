@@ -35,7 +35,7 @@ values."
             sp-escape-quotes-after-insert nil)
      csv
      lsp
-     latex
+     (latex :variables latex-build-command "LatexMk") 
      bibtex
      ;; ess
      (julia :variables
@@ -321,44 +321,12 @@ you should place your code here."
   (add-hook 'doc-view-mode-hook 'auto-revert-mode)
   (add-hook 'LaTeX-mode-hook
             '(lambda ()
-               (setq TeX-command-default "Latexmk-pdfLaTeX")
-               (setq japanese-TeX-command-default "Latexmk-upLaTeX-pdfdvi")
+               (setq TeX-command-default "LatexMk")
                (setq TeX-view-program-selection
                      '((output-dvi "Skim")
                        (output-pdf "Skim")))
-               (setq TeX-view-program-list
-                     '(("Skim" "/Applications/Skim.app/Contents/SharedSupport/displayline -b -g %n %s.pdf %b")))))
-  (add-hook 'LaTeX-mode-hook
-	    (function (lambda ()
-			(add-to-list 'TeX-command-list
-				     '("Latexmk"
-				       "latexmk %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk"))
-			(add-to-list 'TeX-command-list
-				     '("Latexmk-upLaTeX-pdfdvi"
-				       "latexmk -e '$latex=q/uplatex %%O %(file-line-error) %(extraopts) %S %(mode) %%S/' -e '$bibtex=q/upbibtex %%O %%B/' -e '$biber=q/biber %%O --bblencoding=utf8 -u -U --output_safechars %%B/' -e '$makeindex=q/upmendex %%O -o %%D %%S/' -e '$dvipdf=q/dvipdfmx %%O -o %%D %%S/' -norc  -pdfdvi %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk-upLaTeX-pdfdvi"))
-			(add-to-list 'TeX-command-list
-				     '("Latexmk-upLaTeX-pdfps"
-				       "latexmk -e '$latex=q/uplatex %%O %(file-line-error) %(extraopts) %S %(mode) %%S/' -e '$bibtex=q/upbibtex %%O %%B/' -e '$biber=q/biber %%O --bblencoding=utf8 -u -U --output_safechars %%B/' -e '$makeindex=q/upmendex %%O -o %%D %%S/' -e '$dvips=q/dvips %%O -z -f %%S | convbkmk -u > %%D/' -e '$ps2pdf=q/ps2pdf %%O %%S %%D/' -norc  -pdfps %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk-upLaTeX-pdfps"))
-			(add-to-list 'TeX-command-list
-				     '("Latexmk-pdfLaTeX"
-				       "latexmk -e '$pdflatex=q/pdflatex %%O %(file-line-error) %(extraopts) %S %(mode) %%S/' -e '$bibtex=q/bibtex %%O %%B/' -e '$biber=q/biber %%O --bblencoding=utf8 -u -U --output_safechars %%B/' -e '$makeindex=q/makeindex %%O -o %%D %%S/' '-synctex=1' -norc -pdf %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk-pdfLaTeX"))
-			(add-to-list 'TeX-command-list
-				     '("Latexmk-LuaLaTeX"
-				       "latexmk -e '$lualatex=q/lualatex %%O %(file-line-error) %(extraopts) %S %(mode) %%S/' -e '$bibtex=q/upbibtex %%O %%B/' -e '$biber=q/biber %%O --bblencoding=utf8 -u -U --output_safechars %%B/' -e '$makeindex=q/upmendex %%O -o %%D %%S/' -norc  -pdflua %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk-LuaLaTeX"))
-			(add-to-list 'TeX-command-list
-				     '("Latexmk-LuaJITLaTeX"
-				       "latexmk -e '$lualatex=q/luajitlatex %%O %(file-line-error) %(extraopts) %S %(mode) %%S/' -e '$bibtex=q/upbibtex %%O %%B/' -e '$biber=q/biber %%O --bblencoding=utf8 -u -U --output_safechars %%B/' -e '$makeindex=q/upmendex %%O -o %%D %%S/' -norc  -pdflua %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk-LuaJITLaTeX"))
-			(add-to-list 'TeX-command-list
-				     '("Latexmk-XeLaTeX"
-				       "latexmk -e '$xelatex=q/xelatex %%O %(file-line-error) %(extraopts) %S %(mode) %%S/' -e '$bibtex=q/upbibtex %%O %%B/' -e '$biber=q/biber %%O --bblencoding=utf8 -u -U --output_safechars %%B/' -e '$makeindex=q/upmendex %%O -o %%D %%S/' -norc  -pdfxe %t"
-				       TeX-run-TeX nil (latex-mode) :help "Run Latexmk-XeLaTeX")))))
-
+               )
+            )
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
