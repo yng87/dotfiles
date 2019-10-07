@@ -35,7 +35,10 @@ values."
             sp-escape-quotes-after-insert nil)
      csv
      lsp
-     (latex :variables latex-build-command "LatexMk") 
+     (latex :variables
+            latex-build-command "LatexMk"
+            latex-enable-folding t
+            auto-fill-mode nil)
      bibtex
      ;; ess
      (julia :variables
