@@ -35,8 +35,11 @@ values."
             sp-escape-quotes-after-insert nil)
      csv
      lsp
+     ;; latex-enable-auto-fill nil disable line break
+     ;; while it maintains other completions
      (latex :variables
-            latex-build-command "LatexMk")
+            latex-build-command "LatexMk"
+            latex-enable-auto-fill nil)
      bibtex
      ;; ess
      (julia :variables
