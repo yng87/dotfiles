@@ -326,6 +326,7 @@ you should place your code here."
   (add-hook 'doc-view-mode-hook 'auto-revert-mode)
   (add-hook 'LaTeX-mode-hook
             '(lambda ()
+               (setq output-pdf nil) ;; this may be dangerous...
                (setq TeX-command-default "LatexMk")
                (setq TeX-view-program-list
                      '(("Skim" "displayline -b -g %n %o %b")))
