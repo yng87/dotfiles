@@ -327,9 +327,14 @@ you should place your code here."
   (add-hook 'LaTeX-mode-hook
             '(lambda ()
                (setq TeX-command-default "LatexMk")
+               (setq TeX-view-program-list
+                     '(("Skim" "displayline -b -g %n %o %b")))
                (setq TeX-view-program-selection
                      '((output-pdf "Skim")
-                       (output-dvi "Skim")))
+                       ))
+               (setq TeX-source-correlate-mode t)
+               (setq TeX-source-correlate-start-server t)
+               (setq TeX-source-correlate-method 'synctex)
                )
             )
   )
