@@ -33,7 +33,8 @@ values."
    '(html
      rust
      (c-c++ :variables
-            sp-escape-quotes-after-insert nil)
+            sp-escape-quotes-after-insert nil
+            c-c++-enable-clang-support t)
      csv
      lsp
      ;; latex-enable-auto-fill nil disable line break
