@@ -47,7 +47,7 @@ values."
      (julia :variables
             julia-mode-enable-lsp t
             julia-mode-enable-ess nil)
-     (python :variables python-backend 'anaconda)
+     python
      ;; ----------------------------------------------------------------
      ;; Example of useful layers you may want to use right away.
      ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
@@ -340,6 +340,8 @@ you should place your code here."
                (setq TeX-source-correlate-method 'synctex)
                )
             )
+  (setq python-shell-interpreter "ipython")
+  ;; (add-to-list 'spacemacs--python-pyenv-modes 'your-mode)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
