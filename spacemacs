@@ -34,7 +34,9 @@ values."
      rust
      (c-c++ :variables
             sp-escape-quotes-after-insert nil
-            c-c++-enable-clang-support t)
+            c-c++-backend 'lsp-clangd
+            lsp-clients-clangd-executable "/usr/local/opt/llvm/bin/clangd"
+            )
      csv
      lsp
      ;; latex-enable-auto-fill nil disable line break
