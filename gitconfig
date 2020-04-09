@@ -1,0 +1,18 @@
+[user]
+    name = yng87
+    email = k.yanagi07@gmail.com
+[color]
+    ui = auto
+[merge]
+    log = true
+    tool = ediff
+[core]
+    editor = emacs
+[alias]
+    co = checkout
+    st = status
+    br = branch
+    re = remote
+    ci = commit
+    tree = log --decorate --graph --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' master
+    tree-clean = log --oneline --decorate --graph --first-parent --date=relative --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(cyan)<%an>%Creset' master
