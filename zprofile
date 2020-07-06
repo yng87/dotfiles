@@ -8,3 +8,4 @@ alias e='emacs -nw'
 alias g='git'
 alias ls='ls -G'
 export PATH="/usr/local/sbin:$PATH"
+alias jlbayes='ssh -CNL localhost:2345:localhost:2345 keisuke.yanagi@bayes'

@@ -7,7 +7,7 @@
     log = true
     tool = ediff
 [core]
-    editor = emacs
+    editor = vim
 [alias]
     co = checkout
     st = status
