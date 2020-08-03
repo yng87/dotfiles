@@ -10,21 +10,24 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/sorin
+
 # Command Line History (newest to oldest):
-:load
-|2,0,1594536155,,"load"
-:theme
-|2,0,1594536095,,"theme"
-:q!
-|2,0,1594533673,,"q!"
-:q
-|2,0,1594533661,,"q"
-:wq config
-|2,0,1586307250,,"wq config"
+:w
+|2,0,1594725323,,"w"
+:syntax enable
+|2,0,1594725245,,"syntax enable"
 :wq
-|2,0,1586307243,,"wq"
+|2,0,1594725106,,"wq"
+:/sorin
+|2,0,1594540951,,"/sorin"
+:sorin
+|2,0,1594540933,,"sorin"
 
 # Search String History (newest to oldest):
+? sorin
+|2,1,1594540951,,"sorin"
 
 # Expression History (newest to oldest):
 
@@ -33,296 +36,303 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	  AddKeysToAgent yesconfig.original
-|3,0,1,1,1,0,1592358076,"  AddKeysToAgent yesconfig.original"
-""-	CHAR	0
-	 
-|3,1,36,0,1,0,1594536358," "
+""0	LINE	0
+	import json
+|3,1,0,1,1,0,1594725333,"import json"
+"-	CHAR	0
+	t
+|3,0,36,0,1,0,1594725158,"t"
 
 # File marks:
-'0  1  0  ~/workspace/zr-zozo-recommend/Dockerfile
-|4,48,1,0,1596459996,"~/workspace/zr-zozo-recommend/Dockerfile"
-'1  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,49,1,0,1594610241,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
-'2  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,50,1,0,1594609527,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
-'3  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,51,1,0,1594557243,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
-'4  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,52,1,0,1594557243,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
-'5  24  74  ~/.zshrc
-|4,53,24,74,1594536512,"~/.zshrc"
-'6  13  0  ~/.zpreztorc
-|4,54,13,0,1594536403,"~/.zpreztorc"
-'7  119  41  ~/.zpreztorc
-|4,55,119,41,1594536206,"~/.zpreztorc"
-'8  119  41  ~/.zpreztorc
-|4,56,119,41,1594536206,"~/.zpreztorc"
-'9  10  15  ~/dotfiles/gitconfig
-|4,57,10,15,1594030287,"~/dotfiles/gitconfig"
+'0  1  0  ~/.zprofile
+|4,48,1,0,1596460304,"~/.zprofile"
+'1  23  28  ~/.ssh/HirakeGoma.pem
+|4,49,23,28,1595328961,"~/.ssh/HirakeGoma.pem"
+'2  8  50  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,50,8,50,1595149518,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+'3  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,51,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+'4  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,52,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+'5  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,53,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+'6  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,54,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+'7  3  0  ~/.vimrc
+|4,55,3,0,1594725257,"~/.vimrc"
+'8  11  24  ~/.vimrc
+|4,56,11,24,1594725209,"~/.vimrc"
+'9  11  24  ~/.vimrc
+|4,57,11,24,1594725209,"~/.vimrc"
 
 # Jumplist (newest first):
--'  1  0  ~/workspace/zr-zozo-recommend/Dockerfile
-|4,39,1,0,1596459996,"~/workspace/zr-zozo-recommend/Dockerfile"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594610241,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594610241,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594610241,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594610241,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594609527,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594609527,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594609527,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594609527,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594557243,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594557243,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594557243,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  1  0  ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-|4,39,1,0,1594557243,"~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  24  74  ~/.zshrc
-|4,39,24,74,1594536512,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1594536473,"~/.zshrc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
--'  13  0  ~/.zpreztorc
-|4,39,13,0,1594536403,"~/.zpreztorc"
+-'  1  0  ~/.zprofile
+|4,39,1,0,1596460304,"~/.zprofile"
+-'  23  28  ~/.ssh/HirakeGoma.pem
+|4,39,23,28,1595328961,"~/.ssh/HirakeGoma.pem"
+-'  23  28  ~/.ssh/HirakeGoma.pem
+|4,39,23,28,1595328961,"~/.ssh/HirakeGoma.pem"
+-'  1  0  ~/.ssh/HirakeGoma.pem
+|4,39,1,0,1595328944,"~/.ssh/HirakeGoma.pem"
+-'  1  0  ~/.ssh/HirakeGoma.pem
+|4,39,1,0,1595328944,"~/.ssh/HirakeGoma.pem"
+-'  8  50  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,8,50,1595149518,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  8  50  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,8,50,1595149518,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  8  50  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,8,50,1595149518,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  8  50  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,8,50,1595149518,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  7  15  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,7,15,1595149487,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  7  15  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,7,15,1595149487,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  7  15  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,7,15,1595149487,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  7  15  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,7,15,1595149487,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595149087,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595149087,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595149087,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595149087,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  5  18  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,5,18,1595144680,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595144563,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595144563,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595144563,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+|4,39,1,0,1595144563,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  75  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,75,0,1595144560,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  1  0  /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+|4,39,1,0,1595144538,"/usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  2  10  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,2,10,1594725441,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
+-'  3  0  ~/workspace/BigDataTech/twitter-streaming.py
+|4,39,3,0,1594725335,"~/workspace/BigDataTech/twitter-streaming.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/workspace/zr-zozo-recommend/Dockerfile
-	*	1596459994	0
+> ~/.zprofile
+	*	1596460302	0
 	"	1	0
 
-> ~/workspace/zr_statistical_learning_with_python/.git/MERGE_MSG
-	*	1594610228	0
-	"	1	0
+> ~/.ssh/HirakeGoma.pem
+	*	1595328958	0
+	"	23	28
+	^	23	29
+	.	23	28
+	+	23	28
+
+> /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml
+	*	1595149517	0
+	"	8	50
+	^	8	51
+	.	8	50
+	+	5	19
+	+	9	10
+	+	7	0
+	+	8	50
+
+> /usr/local/Cellar/hive/3.1.2_1/libexec/conf/hive-default.xml.template
+	*	1595144556	0
+	"	75	0
+
+> ~/workspace/BigDataTech/twitter-streaming.py
+	*	1594725439	0
+	"	2	10
+	^	2	0
+	.	2	0
+	+	1	15
+	+	2	10
+	+	3	0
+	+	2	0
+
+> ~/.vimrc
+	*	1594725248	0
+	"	3	0
+	^	11	25
+	.	11	24
+	+	1	0
+	+	2	0
+	+	7	0
+	+	6	16
+	+	7	0
+	+	14	0
+	+	20	0
+	+	11	22
+	+	6	13
+	+	11	24
 
 > ~/.zshrc
-	*	1594536509	0
-	"	24	74
-	^	24	75
-	.	24	74
-	+	14	52
-	+	24	74
+	*	1594541283	0
+	"	23	34
+	^	23	35
+	.	23	35
+	+	23	35
 
 > ~/.zpreztorc
-	*	1594536358	0
-	"	13	0
+	*	1594540963	0
+	"	119	41
 	^	119	42
-	.	13	0
-	+	45	0
-	+	46	0
-	+	119	41
+	.	119	41
 	+	13	0
-	n	7	0
-
-> ~/dotfiles/gitconfig
-	*	1594030286	0
-	"	10	15
-	^	10	16
-	.	10	15
-	+	10	15
-
-> ~/.ssh/config
-	*	1593250423	0
-	"	1	0
-	^	4	19
-	.	7	19
-	+	4	0
-	+	7	19
-
-> ~/.zprofile
-	*	1593173176	0
-	"	11	74
-	^	11	75
-	.	11	75
-	+	11	75
-
-> ~/.profile
-	*	1593173111	0
-	"	1	0
-
-> ~/kaggle/m5-accuracy/submission/submission001.csv
-	*	1587265052	0
-	"	5	0
-
-> ~/.spacemacs
-	*	1586309004	0
-	"	38	12
+	+	25	0
+	+	13	0
+	+	119	41
