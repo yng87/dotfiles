@@ -8,6 +8,7 @@
     tool = ediff
 [core]
     editor = vim
+	excludesfile = /Users/keisuke.yanagi/.gitignore_global
 [alias]
     co = checkout
     st = status
